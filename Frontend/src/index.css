@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+
+/* WebKit Browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* Hide the scrollbar in Firefox */
+}
+
+/* For Internet Explorer and Edge (pre-Chromium) */
+.custom-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.small-modal {
+  width: 400px;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.Overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+}
